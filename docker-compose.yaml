@@ -16,7 +16,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./app:/usr/src/app
+      - ./app:/app
     environment:
       - MYSQL_HOST=mysql
       - MYSQL_USER=root
